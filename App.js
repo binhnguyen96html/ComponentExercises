@@ -7,6 +7,7 @@ import Alert from './components/Alert';
 import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import Student from "./components/Student";
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
       <AddComponent firstNum={1} secondNum={2}/>
 
       <Alert text="Cảnh báo! Tài nguyên bạn vừa truy cập không tồn tại." />
+
+      <Student id="Id" name="Name" age="Age" address="Address" />
+      <Student id={1} name="Nguyen Van A" age={30} address="Ha Noi" />
+      <Student id={2} name="Nguyen Thi Thanh Binh" age={27} address="Ho Chi Minh" />
 
     </div>
   );
