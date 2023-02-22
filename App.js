@@ -22,9 +22,7 @@ function App() {
 
       <Alert text="Cảnh báo! Tài nguyên bạn vừa truy cập không tồn tại." />
 
-      <Student id="Id" name="Name" age="Age" address="Address" />
-      <Student id={1} name="Nguyen Van A" age={30} address="Ha Noi" />
-      <Student id={2} name="Nguyen Thi Thanh Binh" age={27} address="Ho Chi Minh" />
+      <Student />
 
     </div>
   );
